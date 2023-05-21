@@ -4,7 +4,7 @@ const port = 5000;
 
 const DB = async () => {
   try {
-    const conn = await mongoose.connect("mongodb://127.0.0.1:27017/New");
+    const conn = await mongoose.connect("mongodb://127.0.0.1:27017/Assignment");
 
     console.log(`Database connect on ${conn.connection.host}`);
 

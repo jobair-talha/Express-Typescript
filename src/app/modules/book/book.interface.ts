@@ -10,3 +10,8 @@ export interface IBook {
   rating: number;
   price: string;
 }
+
+export interface QueryParams {
+  genre: string;
+  publisher?: string;
+}
